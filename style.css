@@ -148,7 +148,10 @@ body {
     font-weight: bold;
     font-family: "Public Sans", sans-serif;
  
-
+   /* Add Flexbox for centering */
+   display: flex;
+   justify-content: center; /* Center horizontally */
+   align-items: center;    /* Center vertically */
 }
 
 .tornado-count {
