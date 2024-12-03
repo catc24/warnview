@@ -203,7 +203,6 @@ function updateDashboard() {
 
     const expirationDate = new Date(warning.properties.expires);
     const options = { 
-        timeZoneName: 'short',
         month: '2-digit',
         day: '2-digit',
         year: 'numeric',
@@ -214,7 +213,7 @@ function updateDashboard() {
     const formattedExpirationTime = expirationDate.toLocaleString('en-US', options);
 
     const counties = formatCountiesTopBar(warning.properties.areaDesc);
-    expirationElement.textContent = `Expires: ${formattedExpirationTime}`;
+    expirationElement.textContent = `Expires: ${formattedExpirationTime} EST`;
 
     // Update display format
     eventTypeElement.textContent = eventName; // Correct format
@@ -270,9 +269,9 @@ function updateWarningList(warnings) {
             if (eventName === "Winter Storm Warning") {
                 warningElement.style.backgroundColor = "rgb(255, 88, 233)";
             } else if (eventName === "Winter Storm Watch") {
-                warningElement.style.backgroundColor = "rgb(0, 0, 255)";
+                warningElement.style.backgroundColor = "rgb(0, 181, 222)";
             } else if (eventName === "Winter Weather Advisory") {
-                warningElement.style.backgroundColor = "rgb(169, 81, 220)";
+                warningElement.style.backgroundColor = "rgb(208, 0, 255)";
             }
 
         } else {

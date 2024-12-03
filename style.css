@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Jost', sans-serif;
     background-color: #222222; /* Updated background color */
     color: white;
     text-align: center;
@@ -122,20 +122,20 @@ body {
 }
 
 .tornado-count {
-    background-color: red;
+    background-color: rgb(255, 0, 0);
 }
 
 .thunderstorm-count {
-    background-color: #FFA500;
+    background-color: #ff9100;
 }
 
 .flood-count {
-    background-color: #006400;
+    background-color: #00ec00;
 }
 
 /* Winter Weather Count Box Color */
 .winter-weather-count {
-    background-color: purple; /* Customize this color for winter weather count box */
+    background-color: rgb(153, 0, 255); /* Customize this color for winter weather count box */
 }
 
 /* Event-specific colors for event type bar */
@@ -144,39 +144,39 @@ body {
 }
 
 .observed-tornado-warning {
-    background-color: darkred;
+    background-color: rgb(255, 0, 98);
 }
 
 .pds-tornado-warning {
-    background-color: purple;
+    background-color: rgb(255, 0, 255);
 }
 
 .tornado-emergency {
-    background-color: pink;
+    background-color: rgb(0, 0, 0);
 }
 
 .severe-thunderstorm-warning {
-    background-color: #FFA500;
+    background-color: #ff8800;
 }
 
 .severe-thunderstorm-considerable {
-    background-color: #FFA500;
+    background-color: #ff7300;
 }
 
 .pds-severe-thunderstorm-warning {
-    background-color: #FF8C00;
+    background-color: #ff0800;
 }
 
 .flash-flood-warning {
-    background-color: #006400;
+    background-color: #00ff00;
 }
 
 .tornado-watch {
-    background-color: #FF6961;
+    background-color: #ff7772;
 }
 
 .severe-thunderstorm-watch {
-    background-color: #FFD700;
+    background-color: #ffa856;
 }
 
 /* Winter weather advisories, watches, and warnings */
@@ -330,12 +330,12 @@ body {
 }
 
 .thunderstorm-count {
-    background-color: #FFA500; /* Customize thunderstorm count color (Yellow-Orange) */
+    background-color: #ff7b00; /* Customize thunderstorm count color (Yellow-Orange) */
     color: white; /* Ensure text color is white */
 }
 
 .flood-count {
-    background-color: #006400; /* Customize flash flood count color (Darker Green) */
+    background-color: #00ff00; /* Customize flash flood count color (Darker Green) */
 }
 
 /* Apply flash animation to the warning count boxes */
@@ -395,7 +395,7 @@ body {
 
 /* Winter Weather Count Box Color */
 .winter-weather-count {
-    background-color: #DDA0DD; /* Light purple color */
+    background-color: #ae00ff; /* Light purple color */
     color: white; /* Ensure the text color is white */
 }
 
