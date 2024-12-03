@@ -4,6 +4,32 @@
     box-sizing: border-box;
 }
 
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-sans-regular-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-sans-bold-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+
 body {
     font-family: 'Jost', sans-serif;
     background-color: #222222; /* Updated background color */
@@ -119,6 +145,10 @@ body {
     text-shadow: 1px 1px 2px black;
     text-transform: uppercase;
     color: white;
+    font-weight: bold;
+    font-family: "Public Sans", sans-serif;
+ 
+
 }
 
 .tornado-count {
