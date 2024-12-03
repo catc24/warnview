@@ -3,15 +3,18 @@ const eventTypes = {
     "Observed Tornado Warning": "observed-tornado-warning",
     "PDS Tornado Warning": "pds-tornado-warning",
     "Tornado Emergency": "tornado-emergency",
-    "Severe Thunderstorm Warning": "severe-thunderstorm-warning", // Regular
-    "Considerable Severe Thunderstorm Warning": "severe-thunderstorm-considerable", // Considerable
-    "Destructive Severe Thunderstorm Warning": "pds-severe-thunderstorm-warning", // PDS (Destructive)
+    "Severe Thunderstorm Warning": "severe-thunderstorm-warning",
+    "Considerable Severe Thunderstorm Warning": "severe-thunderstorm-considerable",
+    "Destructive Severe Thunderstorm Warning": "pds-severe-thunderstorm-warning",
     "Flash Flood Warning": "flash-flood-warning",
     "Tornado Watch": "tornado-watch",
     "Severe Thunderstorm Watch": "severe-thunderstorm-watch",
     "Winter Weather Advisory": "winter-weather-advisory",
     "Winter Storm Watch": "winter-storm-watch",
-    "Winter Storm Warning": "winter-storm-warning"
+    "Winter Storm Warning": "winter-storm-warning",
+    "Ice Storm Warning": "winter-storm-warning", // Grouped under Winter Storm Warning
+    "Heavy Freezing Spray Warning": "winter-storm-warning", // Grouped under Winter Storm Warning
+    "Lake Effect Snow Warning": "winter-storm-warning" // Grouped under Winter Storm Warning
 };
 
 const priority = {
@@ -19,9 +22,9 @@ const priority = {
     "PDS Tornado Warning": 2,
     "Observed Tornado Warning": 3,
     "Radar Indicated Tornado Warning": 4,
-    "Destructive Severe Thunderstorm Warning": 5, // PDS
-    "Considerable Severe Thunderstorm Warning": 6, // Considerable
-    "Severe Thunderstorm Warning": 7, // Regular
+    "Destructive Severe Thunderstorm Warning": 5,
+    "Considerable Severe Thunderstorm Warning": 6,
+    "Severe Thunderstorm Warning": 7,
     "Tornado Watch": 8,
     "Severe Thunderstorm Watch": 9,
     "Flash Flood Warning": 10,

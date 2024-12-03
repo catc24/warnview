@@ -84,7 +84,7 @@ body {
     flex-direction: column;
     align-items: stretch;
     margin-bottom: 20px;
-    border-radius: 5px;
+    border-radius: 0px;
     overflow: hidden;
 }
 
@@ -170,6 +170,11 @@ body {
 .winter-weather-count {
     background-color: rgb(153, 0, 255); /* Customize this color for winter weather count box */
 }
+
+
+.winter-weather-advisory { background-color: #6a0dad; }
+.winter-storm-watch { background-color: #0000ff; }
+.winter-storm-warning { background-color: #ff57b1; }
 
 /* Event-specific colors for event type bar */
 .tornado-warning {

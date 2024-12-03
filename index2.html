@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winter Weather Warning Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="alert-container">
+            <div id="expiration" class="expiration-bar">Expires: TIME</div>
+            <div class="bottom-bar">
+                <div id="eventType" class="event-type-bar">EVENT TYPE</div>
+                <div id="counties" class="counties-bar">COUNTY NAMES</div>
+            </div>
+        </div>
+        <div class="warning-counts">
+            <div id="advisoryCount" class="warning-count winter-weather-advisory">WINTER WEATHER ADVISORIES: 0</div>
+            <div id="watchCount" class="warning-count winter-storm-watch">WINTER STORM WATCHES: 0</div>
+            <div id="warningCount" class="warning-count winter-storm-warning">WINTER STORM WARNINGS: 0</div>
+            <div id="blizzardCount" class="warning-count blizzard-warning">BLIZZARD WARNINGS: 0</div>
+        </div>
+        <div id="warningList" class="warning-list"></div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>

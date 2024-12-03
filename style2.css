@@ -1,0 +1,65 @@
+/* Winter Weather Warning Dashboard Styling */
+body {
+    font-family: 'Jost', sans-serif;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.alert-container {
+    margin-bottom: 20px;
+}
+
+.expiration-bar, .event-type-bar, .counties-bar {
+    padding: 10px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+}
+
+.expiration-bar {
+    background-color: #444;
+    font-weight: bold;
+}
+
+.event-type-bar {
+    background-color: #333;
+    width: 30%;
+    display: inline-block;
+}
+
+.counties-bar {
+    background-color: #555;
+    width: 65%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.warning-counts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.warning-count {
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.winter-weather-advisory { background-color: #6a0dad; }
+.winter-storm-watch { background-color: #0000ff; }
+.winter-storm-warning { background-color: #ff57b1; }
+.blizzard-warning { background-color: #4b0082; }
+
+.warning-list {
+    margin-top: 20px;
+}
